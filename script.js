@@ -5,22 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('ten-participants').addEventListener('click', function() {
-        startSimulation(10);
-    });
-
-    document.getElementById('sixteen-participants').addEventListener('click', function() {
-        startSimulation(16);
-    });
-
-    function startSimulation(participants) {
-        console.log(`Iniciando simulación con ${participants} participantes`);
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('start-btn').addEventListener('click', function() {
-        document.getElementById('start-screen').style.display = 'none';
-        document.getElementById('selection-screen').style.display = 'block';
-    });
-
-    document.getElementById('ten-participants').addEventListener('click', function() {
         configureParticipants(10);
     });
 
